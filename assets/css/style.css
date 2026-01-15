@@ -600,6 +600,13 @@ body {
   z-index: 2;
 }
 
+.recommended-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
 /* ────────────────────────────────────────── */
 /* SEARCH BOX */
 /* ────────────────────────────────────────── */
