@@ -1652,7 +1652,7 @@ body {
 .hero-home .hero-headline,
 .hero-home .hero-subheadline {
     color: white;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Overlay gelap untuk teks tetap terbaca */
@@ -1662,7 +1662,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Gelap transparan */
+  background: rgba(0, 0, 0, 0.2); /* Gelap transparan */
   z-index: 1;
 }
 
