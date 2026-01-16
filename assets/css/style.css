@@ -1647,11 +1647,12 @@ body {
   position: relative;
   padding: 100px 0 80px;
   text-align: center;
-  color: white;
-}
+  }
 
-.hero-home .hero-headline {
+.hero-home .hero-headline,
+.hero-home .hero-subheadline {
     color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* Overlay gelap untuk teks tetap terbaca */
