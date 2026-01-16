@@ -607,6 +607,16 @@ body {
   margin-top: 40px;
 }
 
+.product-card.recommended {
+    margin-bottom: 20px;
+    background: var(--white);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    position: relative;
+    transition: var(--transition);
+}
+
 /* ────────────────────────────────────────── */
 /* SEARCH BOX */
 /* ────────────────────────────────────────── */
