@@ -558,6 +558,18 @@ body {
   flex-grow: 1;
 }
 
+.product-card h3 {
+    font-size: 1.4rem;
+    margin: 20px 16px 8px;
+    color: var(--green-dark);
+}
+
+.product-benefit {
+    color: #6b7280;
+    margin: 0 16px 20px;
+    font-style: italic;
+}
+
 .product-card h4 {
   font-size: 1.2rem;
   margin-bottom: 8px;
