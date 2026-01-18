@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>5 Kebiasaan Pagi yang Tingkatkan Imun Secara Alami — Herbaprima</title>
+  <meta name="description" content="Ritual pagi sederhana berbasis herbal alami untuk memperkuat daya tahan tubuh sepanjang hari." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <div id="header-container"></div>
+
+  <section class="article-hero">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="breadcrumb">
+        <a href="../index.html">Beranda</a> &gt; 
+        <a href="../edukasi.html">Edukasi</a> &gt; 
+        <span>Tips Sehat Alami</span>
+      </nav>
+      <h1>5 Kebiasaan Pagi yang Tingkatkan Imun Secara Alami</h1>
+      <p class="article-meta">Dipublikasikan pada 15 Januari 2026 | Oleh Tim Herbalis Herbaprima</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container article-content">
+      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800" 
+           alt="Ritual pagi sehat" class="article-image">
+      
+      <p>Pagi hari adalah waktu emas untuk menyetel ulang tubuh dan pikiran. Dengan rutinitas yang tepat, Anda bisa memperkuat sistem imun sejak dini — tanpa obat kimia.</p>
+
+      <h2>1. Minum Air Hangat + Madu Murni</h2>
+      <p>Setelah bangun tidur, minumlah segelas air hangat yang dicampur 1 sendok madu murni. Madu mengandung antioksidan, enzim alami, dan prebiotik yang membantu membersihkan saluran pencernaan dan merangsang produksi sel imun.</p>
+      <blockquote>“Madu tidak hanya pemanis alami — ia adalah penjaga gerbang kesehatan harian.”</blockquote>
+
+      <h2>2. Paparan Sinar Matahari Pagi (6–8 AM)</h2>
+      <p>Sinar matahari pagi kaya akan vitamin D alami — nutrisi penting untuk fungsi limfosit (sel darah putih). Cukup 10–15 menit berjemur di teras rumah sudah cukup untuk memicu produksi vitamin D.</p>
+
+      <h2>3. Tarik Napas Dalam di Udara Segar</h2>
+      <p>Lakukan pernapasan diafragma selama 3–5 menit di luar ruangan. Ini meningkatkan oksigenasi darah dan mengurangi kadar kortisol (hormon stres) yang melemahkan imun.</p>
+
+      <h2>4. Konsumsi Herbal Penjaga Imun</h2>
+      <p>Minuman herbal seperti jahe, temulawak, atau ekstrak habbatussauda dapat dikonsumsi setiap pagi. Di Herbaprima, kami meracik <strong>Madu Pahit Premium</strong> yang menggabungkan madu murni dengan ekstrak herbal penjaga imun.</p>
+
+      <h2>5. Gerakan Ringan (Stretching atau Jalan Santai)</h2>
+      <p>Aliran getah bening (sistem detoks alami tubuh) hanya bergerak saat Anda bergerak. Lakukan peregangan ringan atau jalan santai 10 menit untuk “menghidupkan” sistem imun.</p>
+
+      <div class="article-cta">
+        <h3>Siap Mulai Ritual Pagi Anda?</h3>
+        <p>Temukan produk herbal pendukung di koleksi kami:</p>
+        <a href="../produk.html" class="btn btn-primary">Lihat Produk Herbal</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-container"></div>
+  <div id="scripts-container"></div>
+  <script>
+    // Muat komponen
+    async function loadComponents() {
+      const header = await fetch('../components/header.html').then(r => r.text());
+      const footer = await fetch('../components/footer.html').then(r => r.text());
+      const scripts = await fetch('../components/scripts.html').then(r => r.text());
+      document.getElementById('header-container').innerHTML = header;
+      document.getElementById('footer-container').innerHTML = footer;
+      document.getElementById('scripts-container').innerHTML = scripts;
+    }
+    document.addEventListener('DOMContentLoaded', loadComponents);
+  </script>
+</body>
+</html>
